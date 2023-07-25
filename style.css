@@ -1,0 +1,40 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  color:white;
+  text-align: center;
+}
+hr {
+  margin: 20px auto;
+  color: #f0d644;
+  border: 3px solid #f0d644;
+  max-width: 65px;
+  opacity: 1;  
+}
+.btn{
+  border-radius:  50px;/*zaokraglenie rantow*/
+}
+.btn-xl{
+  padding: 1rem 2rem;
+  background-color: #f0d644;
+  border-color: #f0d644;
+  transition: 1s;
+}
+.btn-xl:hover{
+  background-color: #F05F44;
+  border-color: #F05F44;
+  transition: 1s;
+  padding: 1.5rem 3rem;
+}
+.buffer{
+  height: 100px;
+}
