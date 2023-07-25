@@ -1,0 +1,56 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+
+}
+p {
+  color: red;
+  border: 2px solid seagreen;
+  /* ramka */
+  padding: 30px; 
+  /* odleglosc ramek od tekstu */
+  margin: 50px;
+  /* marginesy */
+}
+
+/* link */
+/* a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: wavy;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration:wavy;
+} */
+
+
+/* przycisk */
+a:link, a:visited {
+  background-color: black;
+  color: aliceblue;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-table;
+}
+
+a:hover, a:active {
+  background-color: aqua;
+}

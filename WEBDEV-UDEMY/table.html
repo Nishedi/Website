@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>           
+        <title>Tabela</title>
+        <style>
+            thead {color: green;}
+            tbody {color: blueviolet;}
+            tfoot{color: blue;}
+            table{
+                border: 1px solid rgb(233, 0, 0);
+                width: 100%;
+            }
+            th, td {
+              border: 1px solid black;
+              text-align:center;
+              padding: 8px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <table> 
+            <caption>Przykładowa tabela</caption>
+            <colgroup>
+                <col span = "1" style = "background-color: greenyellow;">
+                <col span = "2" style="background-color:aquamarine;">
+            </colgroup> 
+            <tbody>
+                <tr>
+                    <td>Sekcja body</td>
+                </tr>
+                <tr>
+                    <th>kolumna 1</th>
+                    <th>kolumna 2</th>
+                    <th>kolumna 3</th>
+                </tr>
+            </tbody>
+            <thead>
+            <tr>
+                <td>Sekcja head</td>
+            </tr>
+            <tr>
+                <td>komórka 11</td>
+                <td>komórka 12</td>
+                <td>komórka 13</td>
+            </tr>
+            </thead>
+
+            <tfoot>
+                <tr>
+                    <th>
+                        Sekcja tfoot
+                    </th>
+                </tr>
+                <tr>
+                    <td>komórka 21</td>
+                    <td>komórka 22</td>
+                    <td>komórka 23</td>
+                </tr>
+            </tfoot> 
+            
+        </table>
+    </body>
+</html>
